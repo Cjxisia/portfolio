@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.feb2bfb9.css",
+    "main.js": "/portfolio/static/js/main.d551220b.js",
+    "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/KakaoTalk_20240130_142459113.jpg": "/portfolio/static/media/KakaoTalk_20240130_142459113.ffdeaf119ff6d21ffbc0.jpg",
+    "static/media/logomark-removebg-preview.png": "/portfolio/static/media/logomark-removebg-preview.7b061e44e1f3bd9964f8.png",
+    "static/media/gwnu.png": "/portfolio/static/media/gwnu.0766153e2c0f25f8fe15.png",
+    "static/media/free-icon-github-logo-25231-removebg-preview.png": "/portfolio/static/media/free-icon-github-logo-25231-removebg-preview.22546c8c91eb1dbf4d43.png",
+    "static/media/community.png": "/portfolio/static/media/community.938a0b1b77a6ec8f408d.png",
+    "static/media/usedmarket.png": "/portfolio/static/media/usedmarket.98dd7ee6196df862bae8.png",
+    "static/media/pubchat.png": "/portfolio/static/media/pubchat.62df9d5416f452705de7.png",
+    "static/media/free-icon-letter-11081026.png": "/portfolio/static/media/free-icon-letter-11081026.2630529df9036733c834.png",
+    "index.html": "/portfolio/index.html",
+    "main.feb2bfb9.css.map": "/portfolio/static/css/main.feb2bfb9.css.map",
+    "main.d551220b.js.map": "/portfolio/static/js/main.d551220b.js.map",
+    "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.feb2bfb9.css",
+    "static/js/main.d551220b.js"
+  ]
+}
