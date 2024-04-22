@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.feb2bfb9.css",
-    "main.js": "/portfolio/static/js/main.1917f21b.js",
-    "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "main.js": "/portfolio/static/js/main.bd34b3a1.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Mine.png": "/portfolio/static/media/Mine.e8250d2091bf5a04d70b.png",
     "static/media/KakaoTalk_20240130_142459113.jpg": "/portfolio/static/media/KakaoTalk_20240130_142459113.ffdeaf119ff6d21ffbc0.jpg",
     "static/media/logomark-removebg-preview.png": "/portfolio/static/media/logomark-removebg-preview.7b061e44e1f3bd9964f8.png",
     "static/media/gwnu.png": "/portfolio/static/media/gwnu.0766153e2c0f25f8fe15.png",
@@ -13,11 +14,11 @@
     "static/media/free-icon-letter-11081026.png": "/portfolio/static/media/free-icon-letter-11081026.2630529df9036733c834.png",
     "index.html": "/portfolio/index.html",
     "main.feb2bfb9.css.map": "/portfolio/static/css/main.feb2bfb9.css.map",
-    "main.1917f21b.js.map": "/portfolio/static/js/main.1917f21b.js.map",
-    "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
+    "main.bd34b3a1.js.map": "/portfolio/static/js/main.bd34b3a1.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.feb2bfb9.css",
-    "static/js/main.1917f21b.js"
+    "static/js/main.bd34b3a1.js"
   ]
 }
