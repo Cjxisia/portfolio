@@ -9,6 +9,7 @@ import gwnu from '../images/gwnu.png'
 import pubchat from '../images/pubchat.png'
 import community from '../images/community.png'
 import usedmarket from '../images/usedmarket.png'
+import mine from '../images/Mine.png'
 
 function MainComponent() {
   const [currentSection, setCurrentSection] = useState('about');
@@ -144,7 +145,7 @@ function MainComponent() {
               <a href="https://eatingmouse.tistory.com/2" target="_blank" rel="noopener noreferrer">
                 <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
               </a>
-            </p>
+          </p>
           <p>Node.js를 처음 배운 후, 여러 명의 사용자가 한 곳에서 채팅할 수 있는 웹사이트를 개발했습니다. <br></br>
           이 웹사이트는 사용자들 간의 소통과 정보 공유를 목적으로 제작되었으며<br></br>
           사용자들이 소통 중에 필요한 정보를 쉽게 찾을 수 있도록 네이버 검색 API를 통해 네이버 검색 기능도 추가했습니다.</p>
@@ -161,7 +162,7 @@ function MainComponent() {
               <a href="https://eatingmouse.tistory.com/8" target="_blank" rel="noopener noreferrer">
                 <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
               </a>
-            </p>
+          </p>
           <p>Node.js에 어느정도 익숙해진 후에 개발한 프로젝트로 Mysql과 연동시켜 특정 주제에 관한 커뮤니티를 만들 수 있도록 하고 <br></br>
           글을 작성하고 댓글을 달면서 소통할 수 있는 사이트를 만들었습니다.</p>
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: Node.js Express Mysql</p>
@@ -177,9 +178,26 @@ function MainComponent() {
               <a href="https://eatingmouse.tistory.com/19" target="_blank" rel="noopener noreferrer">
                 <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
               </a>
-            </p>
+          </p>
           <p>Node.js를 통해 개발한 프로젝트 이후에 Java Spring에 관심을 갖게 되어 중고거래 홈페이지를 만들었습니다. 
             <br></br>KakaoMap API를 활용하여 사용자의 위치를 표시하고, 사용자 간 거래를 용이하게 하기 위해 사용자 닉네임을 클릭하면 채팅창이 열리도록 구현했습니다.</p>
+          <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring React Mysql </p>
+          <br></br>
+          <h2>경매 프로젝트 MINE</h2>
+          <br></br>
+          <img src = {mine} style={{height:'380px', width:'800px'}}></img>
+          <p style={{fontSize:'0.7rem', color:'gray'}}>2024.03.23 ~ 2024.04.20</p>
+          <p>
+              <a href="https://github.com/team-mine" target="_blank" rel="noopener noreferrer">
+                <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
+              </a>
+              <a href="https://eatingmouse.tistory.com/35" target="_blank" rel="noopener noreferrer">
+                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
+              </a>
+          </p>
+          <p>이전의 프로젝트를 진행하며 배운 기술을 이용하여 입찰을 통해 물품을 구매할 수 있는 경매 홈페이지를 만들었습니다.
+            <br></br>경매 프로젝트는 팀 프로젝트로 진행하여 프론트 / 백엔드로 나눠서 진행하였고 저는 백엔드 역할을 맡아서 수행하게 되었습니다.
+            <br></br>네이버 로그인 API를 사용하여 네이버 계정으로 로그인 하도록 해두었고 네이버 알림 API를 사용하여 댓글이 달리거나 입찰및 구매성공시에 알림이 가게 해두었습니다.</p>
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring React Mysql </p>
         </section>
       </div>
