@@ -1,15 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import '../css/MainComponent.css';
 import myFace from '../images/KakaoTalk_20240130_142459113.jpg';
-import githubimage from '../images/free-icon-github-logo-25231-removebg-preview.png'
-import tstoryimage from '../images/logomark-removebg-preview.png'
-import phoneimage from '../images/free-icon-mobile-phone-7424905.png'
-import mailimage from '../images/free-icon-letter-11081026.png'
-import gwnu from '../images/gwnu.png'
-import pubchat from '../images/pubchat.png'
-import community from '../images/community.png'
-import usedmarket from '../images/usedmarket.png'
-import mine from '../images/Mine.png'
+import githubimage from '../images/free-icon-github-logo-25231-removebg-preview.png';
+import tstoryimage from '../images/logomark-removebg-preview.png';
+import phoneimage from '../images/free-icon-mobile-phone-7424905.png';
+import mailimage from '../images/free-icon-letter-11081026.png';
+import gwnu from '../images/gwnu.png';
+import pubchat from '../images/pubchat.png';
+import community from '../images/community.png';
+import usedmarket1 from '../images/usedmarket1.png';
+import usedmarket2 from '../images/usedmarket2.png';
+import usedmarket3 from '../images/usedmarket3.png';
+import usedmarket4 from '../images/usedmarket4.png';
+import mine1 from '../images/mine1.jpg';
+import mine2 from '../images/mine2.jpg';
+import mine3 from '../images/mine3.jpg';
+import mine4 from '../images/mine4.jpg';
 
 function MainComponent() {
   const [currentSection, setCurrentSection] = useState('about');
@@ -136,7 +142,7 @@ function MainComponent() {
         <p className='titlename'>Projects</p>
         <section id="projects" style={{ textAlign: 'center' }}>
           <h2>오픈 채팅 프로젝트</h2>
-          <img src = {pubchat} style={{height:'400px', width:'800px'}}></img>
+          <img src={pubchat} style={{height:'400px', width:'800px'}} alt="Open Chat Project" />
           <p style={{fontSize:'0.7rem', color:'gray'}}>2022.08.04 ~ 2022.09.14</p>
           <p>
               <a href="https://github.com/Cjxisia/public-chat" target="_blank" rel="noopener noreferrer">
@@ -154,7 +160,7 @@ function MainComponent() {
           <br></br>
           <h2>커뮤니티 서버 프로젝트</h2>
           <br></br>
-          <img src = {community} style={{height:'400px', width:'800px'}}></img>
+          <img src={community} style={{height:'400px', width:'800px'}} alt="Community Project" />
           <p style={{fontSize:'0.7rem', color:'gray'}}>2023.08.10 ~ 2023.09.20</p>
           <p>
               <a href="https://github.com/Cjxisia/Community_project" target="_blank" rel="noopener noreferrer">
@@ -171,7 +177,12 @@ function MainComponent() {
           <br></br>
           <h2>중고거래 프로젝트</h2>
           <br></br>
-          <img src = {usedmarket} style={{height:'380px', width:'800px'}}></img>
+          <div className="image-grid">
+            <img src={usedmarket1} alt="Used Market 1" />
+            <img src={usedmarket2} alt="Used Market 2" />
+            <img src={usedmarket3} alt="Used Market 3" />
+            <img src={usedmarket4} alt="Used Market 4" />
+          </div>
           <p style={{fontSize:'0.7rem', color:'gray'}}>2023.12.28 ~ 2024.01.25</p>
           <p>
               <a href="https://github.com/Cjxisia/usedmarket" target="_blank" rel="noopener noreferrer">
@@ -189,7 +200,12 @@ function MainComponent() {
           <br></br>
           <h2>경매 프로젝트 MINE</h2>
           <br></br>
-          <img src = {mine} style={{height:'380px', width:'800px'}}></img>
+          <div className="image-grid">
+            <img src={mine1} alt="Mine Project" />
+            <img src={mine2} alt="Mine Project" />
+            <img src={mine3} alt="Mine Project" />
+            <img src={mine4} alt="Mine Project" />
+          </div>
           <p style={{fontSize:'0.7rem', color:'gray'}}>2024.03.23 ~ 2024.04.20</p>
           <p>
               <a href="https://github.com/team-mine" target="_blank" rel="noopener noreferrer">

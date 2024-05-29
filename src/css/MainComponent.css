@@ -1,3 +1,6 @@
+/* MainComponent.css */
+
+/* 기본 스타일 */
 .MainComponent {
   display: flex;
 }
@@ -64,16 +67,35 @@ section h2 {
   font-family: 'Nanum Gothic', sans-serif;
 }
 
-#skills{
+#skills {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.2rem;
 }
 
-#projects{
+#projects {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-#indexlist{
+#indexlist {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
+}
+
+/* 이미지 그리드 스타일 */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* 고정 높이 */
+  object-fit: contain; /* 이미지 비율 유지 */
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-grid img:hover {
+  transform: scale(2.5);
 }
