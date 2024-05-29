@@ -6,8 +6,12 @@ import tstoryimage from '../images/logomark-removebg-preview.png';
 import phoneimage from '../images/free-icon-mobile-phone-7424905.png';
 import mailimage from '../images/free-icon-letter-11081026.png';
 import gwnu from '../images/gwnu.png';
-import pubchat from '../images/pubchat.png';
-import community from '../images/community.png';
+import pubchat1 from '../images/pubchat1.png';
+import pubchat2 from '../images/pubchat2.png';
+import community1 from '../images/community1.png';
+import community2 from '../images/community2.png';
+import community3 from '../images/community3.png';
+import community4 from '../images/community4.png';
 import usedmarket1 from '../images/usedmarket1.png';
 import usedmarket2 from '../images/usedmarket2.png';
 import usedmarket3 from '../images/usedmarket3.png';
@@ -142,8 +146,11 @@ function MainComponent() {
         <p className='titlename'>Projects</p>
         <section id="projects" style={{ textAlign: 'center' }}>
           <h2>오픈 채팅 프로젝트</h2>
-          <img src={pubchat} style={{height:'400px', width:'800px'}} alt="Open Chat Project" />
-          <p style={{fontSize:'0.7rem', color:'gray'}}>2022.08.04 ~ 2022.09.14</p>
+            <div className="image-grid">
+            <img src={pubchat1}  alt="Open Chat Project" />
+            <img src={pubchat2}  alt="Open Chat Project" />
+            <p style={{fontSize:'0.7rem', color:'gray'}}>2022.08.04 ~ 2022.09.14</p>
+          </div>
           <p>
               <a href="https://github.com/Cjxisia/public-chat" target="_blank" rel="noopener noreferrer">
                 <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
@@ -160,7 +167,12 @@ function MainComponent() {
           <br></br>
           <h2>커뮤니티 서버 프로젝트</h2>
           <br></br>
-          <img src={community} style={{height:'400px', width:'800px'}} alt="Community Project" />
+          <div className="image-grid">
+            <img src={community1} alt="Community Project" />
+            <img src={community2} alt="Community Project" />
+            <img src={community3} alt="Community Project" />
+            <img src={community4} alt="Community Project" />
+          </div>
           <p style={{fontSize:'0.7rem', color:'gray'}}>2023.08.10 ~ 2023.09.20</p>
           <p>
               <a href="https://github.com/Cjxisia/Community_project" target="_blank" rel="noopener noreferrer">
@@ -172,7 +184,7 @@ function MainComponent() {
           </p>
           <p>Node.js에 어느정도 익숙해진 후에 개발한 프로젝트로 MVC패턴을 적극적으로 활용하여 프로젝트를 진행하였고<br></br>
           MYSQL을 적극 활용하여 테이블에 저장 및 조회를 통해 글의 관리 및 로그인 기능을 구현하였습니다.<br></br>
-          글 작성 이외에도 댓글작성 기능을 구현하여 글을 작성하고 댓글을 달면서 소통할 수 있는 사이트를 만들었습니다.</p>
+          글 작성 이외에도 작성한 글을 검색하거나 댓글작성 기능을 구현하여 글을 작성하고 댓글을 달면서 소통할 수 있는 사이트를 만들었습니다.</p>
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: Node.js Express Mysql</p>
           <br></br>
           <h2>중고거래 프로젝트</h2>
