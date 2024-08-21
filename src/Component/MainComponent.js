@@ -20,6 +20,10 @@ import mine1 from '../images/mine1.jpg';
 import mine2 from '../images/mine2.jpg';
 import mine3 from '../images/mine3.jpg';
 import mine4 from '../images/mine4.jpg';
+import yeogi1 from '../images/yeogi1.png'
+import yeogi2 from '../images/yeogi2.gif'
+import yeogi3 from '../images/yeogi3.gif'
+import yeogi4 from '../images/yeogi4.png'
 
 function MainComponent() {
   const [currentSection, setCurrentSection] = useState('about');
@@ -249,6 +253,32 @@ function MainComponent() {
           백엔드를 담당한다고 해서 백엔드만 공부하는 것이 아니라, 다른 팀원의 입장에서 생각하고 그들의 분야도 공부하는 것이 중요하다는 것을 느꼈습니다.<br></br>
           역할을 분담하여 프로젝트를 진행하다 보니 개인 프로젝트와 비교할 수 없을 정도로 작업 속도가 빨라졌으며<br></br>
           저는 회의와 소통을 통해 팀원과 의견을 조율하면서 팀 프로젝트를 잘 관리하면 놀라운 효율을 낼 수 있다는 것을 배웠습니다.<br></br></p>
+          <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring Next Mysql </p>
+
+          <h2>여행지 등록 프로젝트 가자여기</h2>
+          <br></br>
+          <div className="image-grid">
+            <img src={yeogi1} alt="Yeogi Project" />
+            <img src={yeogi2} alt="Yeogi Project" />
+            <img src={yeogi3} alt="Yeogi Project" />
+            <img src={yeogi4} alt="Yeogi Project" />
+          </div>
+          <p style={{fontSize:'0.7rem', color:'gray'}}>2024.06.23 ~ 2024.08.19</p>
+          <p>
+              <a href="https://github.com/GajaYeogi" target="_blank" rel="noopener noreferrer">
+                <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
+              </a>
+              <a href="https://eatingmouse.tistory.com/48" target="_blank" rel="noopener noreferrer">
+                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
+              </a>
+          </p>
+          <p>경매프로젝트 이후로 진행한 두번째 팀 프로젝트로 이번에도 이전과 같이 프론트와 백엔드 파트를 나누었고 저는 백엔드 파트를 담당하였습니다.<br></br>
+          ‘가자여기’ 프로젝트는 투어 API를 활용해 관광지 정보를 제공하는 프로젝트입니다. 다만, 투어 API에 등록되지 않은 개인만의 특별한 관광지를 추가하고 이를 다른 사람들과 공유할 수 있도록 기획하였습니다.<br></br>
+          사용자는 관광지 정보 등록 게시판을 통해 자신이 원하는 관광지 정보를 등록할 수 있으며, 일정 수 이상의 추천을 받으면 해당 관광지가 모든 사람이 볼 수 있는 투어 맵에 표시됩니다.<br></br>
+          맵에 등록된 관광지를 클릭하면 상세 정보를 확인할 수 있으며, 실제로 방문 후 리뷰를 작성해 다른 사람들과 감상을 공유할 수 있습니다. 또한, 마음에 드는 관광지를 스크랩하여 언제든지 다시 찾을 수 있도록 기능을 구현하였습니다.<br></br>
+          두번째로 진행한 팀프로젝트였기에 이전에 팀프로젝트에서 하지 못했던 팀원과의 원활한 소통을 위해 프론트가 이해할 수 있도록 주석을 달고 해야할 일에대해 커맨트를 달아놓았습니다.<br></br>
+          보다 체계적인 방법으로 팀프로젝트를 진행함으로서 이전에 진행했던 프로젝트보다 원활한 수행이 가능했고 팀프로젝트에서의 팀과의 소통이 중요하다는 사실을 배웠습니다.<br></br>
+          </p>
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring Next Mysql </p>
         </section>
       </div>
