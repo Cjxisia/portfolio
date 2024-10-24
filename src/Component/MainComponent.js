@@ -180,7 +180,6 @@ function MainComponent() {
             <img src={community3} alt="Community Project" />
             <img src={community4} alt="Community Project" />
           </div>
-          <p style={{fontSize:'0.7rem', color:'gray'}}>2023.08.10 ~ 2023.09.20</p>
           <p>
               <a href="https://github.com/Cjxisia/Community_project" target="_blank" rel="noopener noreferrer">
                 <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
@@ -210,7 +209,6 @@ function MainComponent() {
             <img src={usedmarket3} alt="Used Market 3" />
             <img src={usedmarket4} alt="Used Market 4" />
           </div>
-          <p style={{fontSize:'0.7rem', color:'gray'}}>2023.12.28 ~ 2024.01.25</p>
           <p>
               <a href="https://github.com/Cjxisia/usedmarket" target="_blank" rel="noopener noreferrer">
                 <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
@@ -236,7 +234,6 @@ function MainComponent() {
             <img src={mine3} alt="Mine Project" />
             <img src={mine4} alt="Mine Project" />
           </div>
-          <p style={{fontSize:'0.7rem', color:'gray'}}>2024.03.23 ~ 2024.04.20</p>
           <p>
               <a href="https://github.com/team-mine" target="_blank" rel="noopener noreferrer">
                 <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
@@ -263,7 +260,6 @@ function MainComponent() {
             <img src={yeogi3} alt="Yeogi Project" />
             <img src={yeogi4} alt="Yeogi Project" />
           </div>
-          <p style={{fontSize:'0.7rem', color:'gray'}}>2024.06.23 ~ 2024.08.19</p>
           <p>
               <a href="https://github.com/GajaYeogi" target="_blank" rel="noopener noreferrer">
                 <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
