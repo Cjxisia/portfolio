@@ -99,3 +99,30 @@ section h2 {
 .image-grid img:hover {
   transform: scale(1.5);
 }
+
+.external-link {
+  position: relative;
+  display: inline-block;
+}
+
+.external-link .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6); /* 반투명 배경 */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0; /* 초기 상태는 투명하게 설정 */
+  transition: opacity 0.3s ease;
+}
+
+.external-link:hover .overlay {
+  opacity: 1; /* 마우스 오버 시 텍스트가 나타나도록 설정 */
+}
+

@@ -24,6 +24,7 @@ import yeogi1 from '../images/yeogi1.png'
 import yeogi2 from '../images/yeogi2.gif'
 import yeogi3 from '../images/yeogi3.gif'
 import yeogi4 from '../images/yeogi4.png'
+import yeogi5 from '../images/yeogi5.png'
 
 function MainComponent() {
   const [currentSection, setCurrentSection] = useState('about');
@@ -261,6 +262,10 @@ function MainComponent() {
             <img src={yeogi4} alt="Yeogi Project" />
           </div>
           <p>
+              <a href="https://gajayeogi.vercel.app/" target='_blank' rel="noopener noreferrer" class="external-link">
+                <div class="overlay">Please vist my Website!</div>
+                <img src={yeogi5} alt="Gajayeogi 사이트" />
+              </a><br></br>
               <a href="https://github.com/GajaYeogi" target="_blank" rel="noopener noreferrer">
                 <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
               </a>
@@ -273,7 +278,8 @@ function MainComponent() {
           사용자는 관광지 정보 등록 게시판을 통해 자신이 원하는 관광지 정보를 등록할 수 있으며, 일정 수 이상의 추천을 받으면 해당 관광지가 모든 사람이 볼 수 있는 투어 맵에 표시됩니다.<br></br>
           맵에 등록된 관광지를 클릭하면 상세 정보를 확인할 수 있으며, 실제로 방문 후 리뷰를 작성해 다른 사람들과 감상을 공유할 수 있습니다. 또한, 마음에 드는 관광지를 스크랩하여 언제든지 다시 찾을 수 있도록 기능을 구현하였습니다.<br></br>
           두번째로 진행한 팀프로젝트였기에 이전에 팀프로젝트에서 하지 못했던 팀원과의 원활한 소통을 위해 프론트가 이해할 수 있도록 주석을 달고 해야할 일에대해 커맨트를 달아놓았습니다.<br></br>
-          보다 체계적인 방법으로 팀프로젝트를 진행함으로서 이전에 진행했던 프로젝트보다 원활한 수행이 가능했고 팀프로젝트에서의 팀과의 소통이 중요하다는 사실을 배웠습니다.<br></br>
+          이전에도 클라우드 배포를 경험해본적은 있지만 이번프로젝트는 도메인주소를 사고 실질적으로 배포를 해보는 첫 프로젝트로 배포한 도케인주소는 티스토리와 깃허브 링크 위에 이미지로 올려두었습니다.<br></br> 
+          체계적인 팀프로젝트의 중요성을 배우고 클라우드 환경에 대한 이해를 높일 수 있는 프로젝트였으며 좋은 경험이 되었습니다.<br></br>
           </p>
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring Next Mysql </p>
         </section>
