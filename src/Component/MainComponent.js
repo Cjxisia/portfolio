@@ -78,12 +78,8 @@ function MainComponent() {
             <p style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>박서강</p>
             
             <p style={{ fontSize: '0.8rem'}}>
-              <img src={phoneimage} alt="MY phone" style={{ width: '20px', height: '20px', marginRight: '5px', verticalAlign: 'middle' }}></img> 
-              <a href="tel:010-3016-5895" style={{ verticalAlign: 'middle', textDecoration: 'none', color:'black'}}>010-3016-5895</a>
-            </p>
-            <p style={{ fontSize: '0.8rem'}}>
               <img src={mailimage} alt="My mail" style={{ width: '20px', height: '20px', marginRight: '5px', verticalAlign: 'middle'}}></img>
-              <a href="mailto:qkrtjrkd12@gmail.com" style={{ verticalAlign: 'middle' , textDecoration: 'none', color:'black'}}>qkrtjrkd12@gmail.com</a>
+              <a href="mailto:ijj2858@naver.com" style={{ verticalAlign: 'middle' , textDecoration: 'none', color:'black'}}>ijj2858@naver.com</a>
             </p>
             <p>
               <a href="https://github.com/Cjxisia" target="_blank" rel="noopener noreferrer">
@@ -150,6 +146,64 @@ function MainComponent() {
         <hr></hr>
         <p className='titlename'>Projects</p>
         <section id="projects" style={{ textAlign: 'center' }}>
+        <h2>여행지 등록 프로젝트 가자여기</h2>
+          <br></br>
+          <div className="image-grid">
+            <img src={yeogi1} alt="Yeogi Project" />
+            <img src={yeogi2} alt="Yeogi Project" />
+            <img src={yeogi3} alt="Yeogi Project" />
+            <img src={yeogi4} alt="Yeogi Project" />
+          </div>
+          <p>
+              <a href="https://gajayeogi.vercel.app/" target='_blank' rel="noopener noreferrer" class="external-link">
+                <div class="overlay">Please vist my Website!</div>
+                <img src={yeogi5} alt="Gajayeogi 사이트" />
+              </a><br></br>
+              <a href="https://github.com/GajaYeogi" target="_blank" rel="noopener noreferrer">
+                <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
+              </a>
+              <a href="https://eatingmouse.tistory.com/48" target="_blank" rel="noopener noreferrer">
+                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
+              </a>
+          </p>
+          <p>경매프로젝트 이후로 진행한 두번째 팀 프로젝트로 이번에도 이전과 같이 프론트와 백엔드 파트를 나누었고 저는 백엔드 파트를 담당하였습니다.<br></br>
+          ‘가자여기’ 프로젝트는 투어 API를 활용해 관광지 정보를 제공하는 프로젝트입니다. 다만, 투어 API에 등록되지 않은 개인만의 특별한 관광지를 추가하고 이를 다른 사람들과 공유할 수 있도록 기획하였습니다.<br></br>
+          사용자는 관광지 정보 등록 게시판을 통해 자신이 원하는 관광지 정보를 등록할 수 있으며, 일정 수 이상의 추천을 받으면 해당 관광지가 모든 사람이 볼 수 있는 투어 맵에 표시됩니다.<br></br>
+          맵에 등록된 관광지를 클릭하면 상세 정보를 확인할 수 있으며, 실제로 방문 후 리뷰를 작성해 다른 사람들과 감상을 공유할 수 있습니다. 또한, 마음에 드는 관광지를 스크랩하여 언제든지 다시 찾을 수 있도록 기능을 구현하였습니다.<br></br>
+          두번째로 진행한 팀프로젝트였기에 이전에 팀프로젝트에서 하지 못했던 팀원과의 원활한 소통을 위해 프론트가 이해할 수 있도록 주석을 달고 해야할 일에대해 커맨트를 달아놓았습니다.<br></br>
+          이전에도 클라우드 배포를 경험해본적은 있지만 이번프로젝트는 도메인주소를 사고 실질적으로 배포를 해보는 첫 프로젝트로 배포한 도케인주소는 티스토리와 깃허브 링크 위에 이미지로 올려두었습니다.<br></br> 
+          체계적인 팀프로젝트의 중요성을 배우고 클라우드 환경에 대한 이해를 높일 수 있는 프로젝트였으며 저에게 좋은 경험이 되었습니다.<br></br>
+          </p>
+          <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring Next Mysql </p>
+          <br></br>
+
+          <h2>경매 프로젝트 MINE</h2>
+          <br></br>
+          <div className="image-grid">
+            <img src={mine1} alt="Mine Project" />
+            <img src={mine2} alt="Mine Project" />
+            <img src={mine3} alt="Mine Project" />
+            <img src={mine4} alt="Mine Project" />
+          </div>
+          <p>
+              <a href="https://github.com/team-mine" target="_blank" rel="noopener noreferrer">
+                <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
+              </a>
+              <a href="https://eatingmouse.tistory.com/35" target="_blank" rel="noopener noreferrer">
+                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
+              </a>
+          </p>
+          <p>이전의 프로젝트를 진행하며 배운 기술을 이용하여 입찰을 통해 물품을 구매할 수 있는 경매 홈페이지를 만들었습니다.<br></br>
+          경매 프로젝트는 팀 프로젝트로 진행하여 프론트 / 백엔드로 나눠서 진행하였고 저는 백엔드 역할을 맡아서 수행하게 되었습니다.<br></br>
+          네이버 로그인 API를 사용하여 네이버 계정으로 로그인 하도록 해두었고 네이버 알림 API를 사용하여 댓글이 달리거나 입찰및 구매성공시에 알림이 가도록 구현했습니다.<br></br>
+          개인적으로 진행한 첫 팀프로젝트로 같이 진행한 프론트인원과 회의를 하고 계획을 세우며 서로 맞지 않은 의견차이를 조율하는 데 어려움을 겪었습니다.<br></br>
+          하지만 저는 이전에 개인 프로젝트를 진행하며 프론트엔드를 다뤄본 경험이 있어, 프론트 팀원의 상황을 이해하고 능동적으로 계획을 수정해 나갈 수 있었으며<br></br>
+          백엔드를 담당한다고 해서 백엔드만 공부하는 것이 아니라, 다른 팀원의 입장에서 생각하고 그들의 분야도 공부하는 것이 중요하다는 것을 느꼈습니다.<br></br>
+          역할을 분담하여 프로젝트를 진행하다 보니 개인 프로젝트와 비교할 수 없을 정도로 작업 속도가 빨라졌으며<br></br>
+          저는 회의와 소통을 통해 팀원과 의견을 조율하면서 팀 프로젝트를 잘 관리하면 놀라운 효율을 낼 수 있다는 것을 배웠습니다.<br></br></p>
+          <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring Next Mysql </p>
+          <br></br>
+
           <h2>오픈 채팅 프로젝트</h2>
             <div className="image-grid">
             <img src={pubchat1}  alt="Open Chat Project" />
@@ -173,6 +227,33 @@ function MainComponent() {
           완벽하지는 않지만, 스스로 문제를 해결하고 제가 원하는 방향으로 프로젝트를 성공적으로 구동했기에 저에게 매우 뜻깊은 경험이었습니다.</p>
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: Node.js Express Mysql</p>
           <br></br>
+
+          <h2>중고거래 프로젝트</h2>
+          <br></br>
+          <div className="image-grid">
+            <img src={usedmarket1} alt="Used Market 1" />
+            <img src={usedmarket2} alt="Used Market 2" />
+            <img src={usedmarket3} alt="Used Market 3" />
+            <img src={usedmarket4} alt="Used Market 4" />
+          </div>
+          <p>
+              <a href="https://github.com/Cjxisia/usedmarket" target="_blank" rel="noopener noreferrer">
+                <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
+              </a>
+              <a href="https://eatingmouse.tistory.com/19" target="_blank" rel="noopener noreferrer">
+                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
+              </a>
+          </p>
+          <p>Node.js를 통해 개발한 프로젝트 이후에 Java Spring에 관심을 갖게 되어 중고거래 홈페이지를 만들었습니다.<br></br>
+            이전과 같이 커뮤니티 형식으로 홈페이지를 만들고 MYSQL을 통해 관리 하였으며 거래를 위한 거래게시판과 자유롭게 이야기를 나눌 수 있는 자유게시판을 분리시켜두었습니다.<br></br>
+            그 이외에도 중고거래를 위해서는 사용자의 위치와 소통이 중요하기 때문에 KakaoMap API를 활용하여 사용자의 위치를 표시하도록 하였고<br></br>
+            사용자 간 거래를 용이하게 하기 위해 사용자 닉네임을 클릭하면 채팅창이 열리도록 하여 구매자와 판매자가 소통할 수 있도록 구현했습니다.<br></br>
+            이번에는 자바스크립트로만 만들어 두었던 프론트도 적극적으로 React를 배우고 활용하였으며 이전에 제대로 다루지 못했던 Restful한 api를 설계하려 노력하였습니다.<br></br>
+            처음이었기에 React와 Java Spring간의 통신을 어려워하였지만 서버에서 해야할 일을 프론트가 분담하여 처리하여 데이터처리속도가 늘어나는걸 실감하였고<br></br>
+            프론트엔드의 라이브러리가 큰 서버에 영향을 끼칠 수 있기에 프론트의 역할을 무시해서는 안된다는걸 배울 수 있었습니다.</p>
+          <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring React Mysql </p>
+          <br></br>
+
           <h2>커뮤니티 서버 프로젝트</h2>
           <br></br>
           <div className="image-grid">
@@ -202,86 +283,6 @@ function MainComponent() {
           이번 프로젝트를 통해 코드 작성 전에 설계를 철저히 하는 것이 얼마나 중요한지 실감할 수 있었습니다.<br></br></p>
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: Node.js Express Mysql</p>
           <br></br>
-          <h2>중고거래 프로젝트</h2>
-          <br></br>
-          <div className="image-grid">
-            <img src={usedmarket1} alt="Used Market 1" />
-            <img src={usedmarket2} alt="Used Market 2" />
-            <img src={usedmarket3} alt="Used Market 3" />
-            <img src={usedmarket4} alt="Used Market 4" />
-          </div>
-          <p>
-              <a href="https://github.com/Cjxisia/usedmarket" target="_blank" rel="noopener noreferrer">
-                <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
-              </a>
-              <a href="https://eatingmouse.tistory.com/19" target="_blank" rel="noopener noreferrer">
-                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
-              </a>
-          </p>
-          <p>Node.js를 통해 개발한 프로젝트 이후에 Java Spring에 관심을 갖게 되어 중고거래 홈페이지를 만들었습니다.<br></br>
-            이전과 같이 커뮤니티 형식으로 홈페이지를 만들고 MYSQL을 통해 관리 하였으며 거래를 위한 거래게시판과 자유롭게 이야기를 나눌 수 있는 자유게시판을 분리시켜두었습니다.<br></br>
-            그 이외에도 중고거래를 위해서는 사용자의 위치와 소통이 중요하기 때문에 KakaoMap API를 활용하여 사용자의 위치를 표시하도록 하였고<br></br>
-            사용자 간 거래를 용이하게 하기 위해 사용자 닉네임을 클릭하면 채팅창이 열리도록 하여 구매자와 판매자가 소통할 수 있도록 구현했습니다.<br></br>
-            이번에는 자바스크립트로만 만들어 두었던 프론트도 적극적으로 React를 배우고 활용하였으며 이전에 제대로 다루지 못했던 Restful한 api를 설계하려 노력하였습니다.<br></br>
-            처음이었기에 React와 Java Spring간의 통신을 어려워하였지만 서버에서 해야할 일을 프론트가 분담하여 처리하여 데이터처리속도가 늘어나는걸 실감하였고<br></br>
-            프론트엔드의 라이브러리가 큰 서버에 영향을 끼칠 수 있기에 프론트의 역할을 무시해서는 안된다는걸 배울 수 있었습니다.</p>
-          <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring React Mysql </p>
-          <br></br>
-          <h2>경매 프로젝트 MINE</h2>
-          <br></br>
-          <div className="image-grid">
-            <img src={mine1} alt="Mine Project" />
-            <img src={mine2} alt="Mine Project" />
-            <img src={mine3} alt="Mine Project" />
-            <img src={mine4} alt="Mine Project" />
-          </div>
-          <p>
-              <a href="https://github.com/team-mine" target="_blank" rel="noopener noreferrer">
-                <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
-              </a>
-              <a href="https://eatingmouse.tistory.com/35" target="_blank" rel="noopener noreferrer">
-                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
-              </a>
-          </p>
-          <p>이전의 프로젝트를 진행하며 배운 기술을 이용하여 입찰을 통해 물품을 구매할 수 있는 경매 홈페이지를 만들었습니다.<br></br>
-          경매 프로젝트는 팀 프로젝트로 진행하여 프론트 / 백엔드로 나눠서 진행하였고 저는 백엔드 역할을 맡아서 수행하게 되었습니다.<br></br>
-          네이버 로그인 API를 사용하여 네이버 계정으로 로그인 하도록 해두었고 네이버 알림 API를 사용하여 댓글이 달리거나 입찰및 구매성공시에 알림이 가도록 구현했습니다.<br></br>
-          개인적으로 진행한 첫 팀프로젝트로 같이 진행한 프론트인원과 회의를 하고 계획을 세우며 서로 맞지 않은 의견차이를 조율하는 데 어려움을 겪었습니다.<br></br>
-          하지만 저는 이전에 개인 프로젝트를 진행하며 프론트엔드를 다뤄본 경험이 있어, 프론트 팀원의 상황을 이해하고 능동적으로 계획을 수정해 나갈 수 있었으며<br></br>
-          백엔드를 담당한다고 해서 백엔드만 공부하는 것이 아니라, 다른 팀원의 입장에서 생각하고 그들의 분야도 공부하는 것이 중요하다는 것을 느꼈습니다.<br></br>
-          역할을 분담하여 프로젝트를 진행하다 보니 개인 프로젝트와 비교할 수 없을 정도로 작업 속도가 빨라졌으며<br></br>
-          저는 회의와 소통을 통해 팀원과 의견을 조율하면서 팀 프로젝트를 잘 관리하면 놀라운 효율을 낼 수 있다는 것을 배웠습니다.<br></br></p>
-          <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring Next Mysql </p>
-
-          <h2>여행지 등록 프로젝트 가자여기</h2>
-          <br></br>
-          <div className="image-grid">
-            <img src={yeogi1} alt="Yeogi Project" />
-            <img src={yeogi2} alt="Yeogi Project" />
-            <img src={yeogi3} alt="Yeogi Project" />
-            <img src={yeogi4} alt="Yeogi Project" />
-          </div>
-          <p>
-              <a href="https://gajayeogi.vercel.app/" target='_blank' rel="noopener noreferrer" class="external-link">
-                <div class="overlay">Please vist my Website!</div>
-                <img src={yeogi5} alt="Gajayeogi 사이트" />
-              </a><br></br>
-              <a href="https://github.com/GajaYeogi" target="_blank" rel="noopener noreferrer">
-                <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
-              </a>
-              <a href="https://eatingmouse.tistory.com/48" target="_blank" rel="noopener noreferrer">
-                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
-              </a>
-          </p>
-          <p>경매프로젝트 이후로 진행한 두번째 팀 프로젝트로 이번에도 이전과 같이 프론트와 백엔드 파트를 나누었고 저는 백엔드 파트를 담당하였습니다.<br></br>
-          ‘가자여기’ 프로젝트는 투어 API를 활용해 관광지 정보를 제공하는 프로젝트입니다. 다만, 투어 API에 등록되지 않은 개인만의 특별한 관광지를 추가하고 이를 다른 사람들과 공유할 수 있도록 기획하였습니다.<br></br>
-          사용자는 관광지 정보 등록 게시판을 통해 자신이 원하는 관광지 정보를 등록할 수 있으며, 일정 수 이상의 추천을 받으면 해당 관광지가 모든 사람이 볼 수 있는 투어 맵에 표시됩니다.<br></br>
-          맵에 등록된 관광지를 클릭하면 상세 정보를 확인할 수 있으며, 실제로 방문 후 리뷰를 작성해 다른 사람들과 감상을 공유할 수 있습니다. 또한, 마음에 드는 관광지를 스크랩하여 언제든지 다시 찾을 수 있도록 기능을 구현하였습니다.<br></br>
-          두번째로 진행한 팀프로젝트였기에 이전에 팀프로젝트에서 하지 못했던 팀원과의 원활한 소통을 위해 프론트가 이해할 수 있도록 주석을 달고 해야할 일에대해 커맨트를 달아놓았습니다.<br></br>
-          이전에도 클라우드 배포를 경험해본적은 있지만 이번프로젝트는 도메인주소를 사고 실질적으로 배포를 해보는 첫 프로젝트로 배포한 도케인주소는 티스토리와 깃허브 링크 위에 이미지로 올려두었습니다.<br></br> 
-          체계적인 팀프로젝트의 중요성을 배우고 클라우드 환경에 대한 이해를 높일 수 있는 프로젝트였으며 저에게 좋은 경험이 되었습니다.<br></br>
-          </p>
-          <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring Next Mysql </p>
         </section>
       </div>
     </div>
