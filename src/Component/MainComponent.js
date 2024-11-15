@@ -204,6 +204,32 @@ function MainComponent() {
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring Next Mysql </p>
           <br></br>
 
+          <h2>중고거래 프로젝트</h2>
+          <br></br>
+          <div className="image-grid">
+            <img src={usedmarket1} alt="Used Market 1" />
+            <img src={usedmarket2} alt="Used Market 2" />
+            <img src={usedmarket3} alt="Used Market 3" />
+            <img src={usedmarket4} alt="Used Market 4" />
+          </div>
+          <p>
+              <a href="https://github.com/Cjxisia/usedmarket" target="_blank" rel="noopener noreferrer">
+                <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
+              </a>
+              <a href="https://eatingmouse.tistory.com/19" target="_blank" rel="noopener noreferrer">
+                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
+              </a>
+          </p>
+          <p>Node.js를 통해 개발한 프로젝트 이후에 Java Spring에 관심을 갖게 되어 중고거래 홈페이지를 만들었습니다.<br></br>
+            이전과 같이 커뮤니티 형식으로 홈페이지를 만들고 MYSQL을 통해 관리 하였으며 거래를 위한 거래게시판과 자유롭게 이야기를 나눌 수 있는 자유게시판을 분리시켜두었습니다.<br></br>
+            그 이외에도 중고거래를 위해서는 사용자의 위치와 소통이 중요하기 때문에 KakaoMap API를 활용하여 사용자의 위치를 표시하도록 하였고<br></br>
+            사용자 간 거래를 용이하게 하기 위해 사용자 닉네임을 클릭하면 채팅창이 열리도록 하여 구매자와 판매자가 소통할 수 있도록 구현했습니다.<br></br>
+            이번에는 자바스크립트로만 만들어 두었던 프론트도 적극적으로 React를 배우고 활용하였으며 이전에 제대로 다루지 못했던 Restful한 api를 설계하려 노력하였습니다.<br></br>
+            처음이었기에 React와 Java Spring간의 통신을 어려워하였지만 서버에서 해야할 일을 프론트가 분담하여 처리하여 데이터처리속도가 늘어나는걸 실감하였고<br></br>
+            프론트엔드의 라이브러리가 큰 서버에 영향을 끼칠 수 있기에 프론트의 역할을 무시해서는 안된다는걸 배울 수 있었습니다.</p>
+          <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring React Mysql </p>
+          <br></br>
+
           <h2>커뮤니티 서버 프로젝트</h2>
           <br></br>
           <div className="image-grid">
@@ -232,32 +258,6 @@ function MainComponent() {
           채팅 프로젝트와 달리, 이번에는 초기에 구상을 하고 설계에 맞춰 코딩을 진행했더니, 이전 프로젝트의 엉성한 구조와 비교해 훨씬 탄탄해졌음을 느낄 수 있었으며<br></br>
           이번 프로젝트를 통해 코드 작성 전에 설계를 철저히 하는 것이 얼마나 중요한지 실감할 수 있었습니다.<br></br></p>
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: Node.js Express Mysql</p>
-          <br></br>
-
-          <h2>중고거래 프로젝트</h2>
-          <br></br>
-          <div className="image-grid">
-            <img src={usedmarket1} alt="Used Market 1" />
-            <img src={usedmarket2} alt="Used Market 2" />
-            <img src={usedmarket3} alt="Used Market 3" />
-            <img src={usedmarket4} alt="Used Market 4" />
-          </div>
-          <p>
-              <a href="https://github.com/Cjxisia/usedmarket" target="_blank" rel="noopener noreferrer">
-                <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
-              </a>
-              <a href="https://eatingmouse.tistory.com/19" target="_blank" rel="noopener noreferrer">
-                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
-              </a>
-          </p>
-          <p>Node.js를 통해 개발한 프로젝트 이후에 Java Spring에 관심을 갖게 되어 중고거래 홈페이지를 만들었습니다.<br></br>
-            이전과 같이 커뮤니티 형식으로 홈페이지를 만들고 MYSQL을 통해 관리 하였으며 거래를 위한 거래게시판과 자유롭게 이야기를 나눌 수 있는 자유게시판을 분리시켜두었습니다.<br></br>
-            그 이외에도 중고거래를 위해서는 사용자의 위치와 소통이 중요하기 때문에 KakaoMap API를 활용하여 사용자의 위치를 표시하도록 하였고<br></br>
-            사용자 간 거래를 용이하게 하기 위해 사용자 닉네임을 클릭하면 채팅창이 열리도록 하여 구매자와 판매자가 소통할 수 있도록 구현했습니다.<br></br>
-            이번에는 자바스크립트로만 만들어 두었던 프론트도 적극적으로 React를 배우고 활용하였으며 이전에 제대로 다루지 못했던 Restful한 api를 설계하려 노력하였습니다.<br></br>
-            처음이었기에 React와 Java Spring간의 통신을 어려워하였지만 서버에서 해야할 일을 프론트가 분담하여 처리하여 데이터처리속도가 늘어나는걸 실감하였고<br></br>
-            프론트엔드의 라이브러리가 큰 서버에 영향을 끼칠 수 있기에 프론트의 역할을 무시해서는 안된다는걸 배울 수 있었습니다.</p>
-          <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring React Mysql </p>
           <br></br>
 
           <h2>오픈 채팅 프로젝트</h2>
