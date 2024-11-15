@@ -204,27 +204,33 @@ function MainComponent() {
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring Next Mysql </p>
           <br></br>
 
-          <h2>오픈 채팅 프로젝트</h2>
-            <div className="image-grid">
-            <img src={pubchat1}  alt="Open Chat Project" />
-            <img src={pubchat2}  alt="Open Chat Project" />
-            <p style={{fontSize:'0.7rem', color:'gray'}}>2022.08.04 ~ 2022.09.14</p>
+          <h2>커뮤니티 서버 프로젝트</h2>
+          <br></br>
+          <div className="image-grid">
+            <img src={community1} alt="Community Project" />
+            <img src={community2} alt="Community Project" />
+            <img src={community3} alt="Community Project" />
+            <img src={community4} alt="Community Project" />
           </div>
           <p>
-              <a href="https://github.com/Cjxisia/public-chat" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Cjxisia/Community_project" target="_blank" rel="noopener noreferrer">
                 <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
               </a>
-              <a href="https://eatingmouse.tistory.com/2" target="_blank" rel="noopener noreferrer">
+              <a href="https://eatingmouse.tistory.com/8" target="_blank" rel="noopener noreferrer">
+                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
+              </a>
+              <a href="https://eatingmouse.tistory.com/29" target="_blank" rel="noopener noreferrer">
                 <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
               </a>
           </p>
-          <p>Node.js를 처음 배운 후, 여러 명의 사용자가 한 곳에서 채팅할 수 있는 웹사이트를 개발했습니다. <br></br>
-          이 웹사이트는 사용자들 간의 소통과 정보 공유를 목적으로 제작되었으며<br></br>
-          사용자들이 소통 중에 필요한 정보를 쉽게 찾을 수 있도록 네이버 검색 API를 사용하였고<br></br>
-          특정 버튼을 누르면 네이버로 검색할 수 있는 창이 나타나며 네이버에 검색할 수 있도록 기능을 추가하였습니다.<br></br>
-          이 프로젝트는 대학교 과제를 수행하는것이 아닌 스스로에게 과제를 부여하고 해결한 저의 첫번째 프로젝트입니다. <br></br>
-          새로운 언어를 사용해보고자 다양한 자료를 찾아보았고, 오류를 해결하기 위해 수많은 시행착오를 겪었습니다. <br></br>
-          완벽하지는 않지만, 스스로 문제를 해결하고 제가 원하는 방향으로 프로젝트를 성공적으로 구동했기에 저에게 매우 뜻깊은 경험이었습니다.</p>
+          <p>채팅프로젝트를 마치고 경험과 지식을 토대로 좀 더 복잡한 프로젝트를 진행하고 싶어서 시작한 프로젝트입니다.<br></br>
+          채팅프로젝트에서는 하지 못했던 MVC모델을 생각하며 프론트의 배치와 백엔드의 구조를 구성해 두었고 <br></br>
+          이전 보다 복잡해진 데이터베이스가 엉키지 않도록 코드를 작성하기전에 데이터베이스의 구조를 설계해두었습니다.<br></br>
+          MYSQL을 적극 활용하여 테이블에 저장 및 조회를 통해 글의 관리 및 로그인 기능을 구현하였습니다.<br></br>
+          글 작성 이외에도 작성한 글을 검색하거나 댓글작성 기능을 구현하여 글을 작성하고 댓글을 달면서 소통할 수 있는 사이트를 만들었습니다.<br></br>
+          프로젝트를 완성한 이후에 Aws의 Ec2를 이용하여 배포한 프로젝트이기도 하며 Docker의 사용법을 배우기 위해 사용한 프로젝트이기도 합니다.<br></br>
+          채팅 프로젝트와 달리, 이번에는 초기에 구상을 하고 설계에 맞춰 코딩을 진행했더니, 이전 프로젝트의 엉성한 구조와 비교해 훨씬 탄탄해졌음을 느낄 수 있었으며<br></br>
+          이번 프로젝트를 통해 코드 작성 전에 설계를 철저히 하는 것이 얼마나 중요한지 실감할 수 있었습니다.<br></br></p>
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: Node.js Express Mysql</p>
           <br></br>
 
@@ -254,33 +260,27 @@ function MainComponent() {
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring React Mysql </p>
           <br></br>
 
-          <h2>커뮤니티 서버 프로젝트</h2>
-          <br></br>
-          <div className="image-grid">
-            <img src={community1} alt="Community Project" />
-            <img src={community2} alt="Community Project" />
-            <img src={community3} alt="Community Project" />
-            <img src={community4} alt="Community Project" />
+          <h2>오픈 채팅 프로젝트</h2>
+            <div className="image-grid">
+            <img src={pubchat1}  alt="Open Chat Project" />
+            <img src={pubchat2}  alt="Open Chat Project" />
+            <p style={{fontSize:'0.7rem', color:'gray'}}>2022.08.04 ~ 2022.09.14</p>
           </div>
           <p>
-              <a href="https://github.com/Cjxisia/Community_project" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Cjxisia/public-chat" target="_blank" rel="noopener noreferrer">
                 <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
               </a>
-              <a href="https://eatingmouse.tistory.com/8" target="_blank" rel="noopener noreferrer">
-                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
-              </a>
-              <a href="https://eatingmouse.tistory.com/29" target="_blank" rel="noopener noreferrer">
+              <a href="https://eatingmouse.tistory.com/2" target="_blank" rel="noopener noreferrer">
                 <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
               </a>
           </p>
-          <p>채팅프로젝트를 마치고 경험과 지식을 토대로 좀 더 복잡한 프로젝트를 진행하고 싶어서 시작한 프로젝트입니다.<br></br>
-          채팅프로젝트에서는 하지 못했던 MVC모델을 생각하며 프론트의 배치와 백엔드의 구조를 구성해 두었고 <br></br>
-          이전 보다 복잡해진 데이터베이스가 엉키지 않도록 코드를 작성하기전에 데이터베이스의 구조를 설계해두었습니다.<br></br>
-          MYSQL을 적극 활용하여 테이블에 저장 및 조회를 통해 글의 관리 및 로그인 기능을 구현하였습니다.<br></br>
-          글 작성 이외에도 작성한 글을 검색하거나 댓글작성 기능을 구현하여 글을 작성하고 댓글을 달면서 소통할 수 있는 사이트를 만들었습니다.<br></br>
-          프로젝트를 완성한 이후에 Aws의 Ec2를 이용하여 배포한 프로젝트이기도 하며 Docker의 사용법을 배우기 위해 사용한 프로젝트이기도 합니다.<br></br>
-          채팅 프로젝트와 달리, 이번에는 초기에 구상을 하고 설계에 맞춰 코딩을 진행했더니, 이전 프로젝트의 엉성한 구조와 비교해 훨씬 탄탄해졌음을 느낄 수 있었으며<br></br>
-          이번 프로젝트를 통해 코드 작성 전에 설계를 철저히 하는 것이 얼마나 중요한지 실감할 수 있었습니다.<br></br></p>
+          <p>Node.js를 처음 배운 후, 여러 명의 사용자가 한 곳에서 채팅할 수 있는 웹사이트를 개발했습니다. <br></br>
+          이 웹사이트는 사용자들 간의 소통과 정보 공유를 목적으로 제작되었으며<br></br>
+          사용자들이 소통 중에 필요한 정보를 쉽게 찾을 수 있도록 네이버 검색 API를 사용하였고<br></br>
+          특정 버튼을 누르면 네이버로 검색할 수 있는 창이 나타나며 네이버에 검색할 수 있도록 기능을 추가하였습니다.<br></br>
+          이 프로젝트는 대학교 과제를 수행하는것이 아닌 스스로에게 과제를 부여하고 해결한 저의 첫번째 프로젝트입니다. <br></br>
+          새로운 언어를 사용해보고자 다양한 자료를 찾아보았고, 오류를 해결하기 위해 수많은 시행착오를 겪었습니다. <br></br>
+          완벽하지는 않지만, 스스로 문제를 해결하고 제가 원하는 방향으로 프로젝트를 성공적으로 구동했기에 저에게 매우 뜻깊은 경험이었습니다.</p>
           <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: Node.js Express Mysql</p>
           <br></br>
         </section>
