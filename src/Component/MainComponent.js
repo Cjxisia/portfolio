@@ -25,6 +25,11 @@ import yeogi2 from '../images/yeogi2.gif'
 import yeogi3 from '../images/yeogi3.gif'
 import yeogi4 from '../images/yeogi4.png'
 import yeogi5 from '../images/yeogi5.png'
+import bookload1 from '../images/bookroad1.gif'
+import bookload2 from '../images/bookroad2.gif'
+import bookload3 from '../images/bookroad3.gif'
+import bookload4 from '../images/bookroad4.gif'
+import bookload5 from '../images/bookroad5.png'
 
 function MainComponent() {
   const [currentSection, setCurrentSection] = useState('about');
@@ -102,7 +107,7 @@ function MainComponent() {
         <section id="about">
           <p className="titlename">INTRODUCE</p>
           <p style={{ fontSize: '3.0rem', fontWeight:'bold'}}>안녕하세요. <br></br>
-          저는 신입 백엔드 개발자를 희망하는<br></br>
+          저는 백엔드 개발자를 희망하는<br></br>
           박서강 입니다.
           </p>
           <br></br>
@@ -146,6 +151,37 @@ function MainComponent() {
         <hr></hr>
         <p className='titlename'>Projects</p>
         <section id="projects" style={{ textAlign: 'center' }}>
+          
+        <h2>도서 관리및 추천 시스템 책길</h2>
+          <br></br>
+          <div className="image-grid">
+            <img src={bookload1} alt="bookload1" />
+            <img src={bookload2} alt="bookload2" />
+            <img src={bookload3} alt="bookload3" />
+            <img src={bookload4} alt="bookload4" />
+          </div>
+          <p>
+              <a href="https://bookmanage-spring-app-791080278572.us-central1.run.app/" target='_blank' rel="noopener noreferrer" class="external-link">
+                <div class="overlay">Please vist my Website!</div>
+                <img src={bookload5} alt="북길길 사이트" />
+              </a><br></br>
+              <a href="https://github.com/Cjxisia/bookmanage" target="_blank" rel="noopener noreferrer">
+                <img src={githubimage} alt="My Github" style={{ width: '35px', height: '35px' }} />
+              </a>
+              <a href="https://eatingmouse.tistory.com/65" target="_blank" rel="noopener noreferrer">
+                <img src={tstoryimage} alt="My Tstory" style={{ width: '35px', height: '35px' }} />
+              </a>
+          </p>
+          <p>북길은 중고거래 프로젝트 이후로 오래간만에 진행한 개인프로젝트로, 이번에는 프론트와 백엔드파트를 전부 개인이 맡아 진행하였습니다.<br></br>
+          북길은 외부 도서 사이트의 API를 받아와 도서정보를 가져와주는 프로젝트로, 도서의 구매사이트를 포함한 각종정보들과, 주목받고 있는 시간도서와 이번달 기준으로 가장 많이 팔린 책들의 정보들을 제공하며, 원하는 책을 북마크하는 기능을 넣어두었습니다.<br></br>
+          뿐만아니라, 도서 추천시스템을 구현시켰는데, Open Korean Text Processor라이브러리를 사용하여 AI의 분석을 통해 책의 줄거리에서 명사로 이루어진 키워드들을 뽑아내었고, 불용어 사전을 통해 쓸대 없는 단어들을 제거시켰습니다.<br></br>
+          후에는 키워드들의 반도수를 계산하여 가장 많은 빈도에 포함되는 키워드들을 5개 추출시켯고, 추출한 키워드를 기반으로 책을 추천하는 시스템을 구현했습니다.<br></br>
+          또한, 이번프로젝트는 Docker를 활용해, 스프링 프로젝트를 컨테이너화 시켜 gcloud run을 사용해 배포 시켰으며, 외부 홍보를 통해 서버를 적극적으로 운영해보고 있습니다.<br></br>
+          다양한 API와 클라우드 배포 경험을 쌓으면서, 그 활용도와 기술적 이해도가 크게 향상되었습니다. 특히 API의 효율적인 활용 방법과 클라우드 환경에서의 배포 및 관리에 대한 깊은 이해를 얻을 수 있었습니다다.<br></br>
+          </p>
+          <p style={{fontSize:'0.7rem', color:'gray'}}>사용기술: JavaSpring Thymeleaf Mysql </p>
+          <br></br>
+
         <h2>여행지 등록 프로젝트 가자여기</h2>
           <br></br>
           <div className="image-grid">
